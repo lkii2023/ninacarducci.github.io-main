@@ -13,12 +13,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/style.css" />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      as="style"
-    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
@@ -79,59 +80,36 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                loading="lazy"
                 src="./assets/images/slider/Portrait_ryoji_iwata_1920.webp"
                 class="d-block w-100 h-auto"
-                alt="Photographie d'une personne qui traverse sur un passage piéton"
-                srcset="
-                  ./assets/images/slider/Portrait_ryoji_iwata_375.webp   375w,
-                  ./assets/images/slider/Portrait_ryoji_iwata_768.webp   768w,
-                  ./assets/images/slider/Portrait_ryoji_iwata_1024.webp 1024w,
-                  ./assets/images/slider/Portrait_ryoji_iwata_1440.webp 1440w,
-                  ./assets/images/slider/Portrait_ryoji_iwata_1920.webp 1920w,
-                  ./assets/images/slider/Portrait_ryoji_iwata_2048.webp 2048w
-                "
-                sizes="(min-width: 2048px) 1920px, 100vw"
-                width="1920"
-                height="888"
+                alt="Personne qui traverse sur un passage piéton"
+                srcset="./assets/images/slider/Portrait_ryoji_iwata_768.webp"
+                sizes="(min-width: 1920px) 1920px, 100vw"
+                width="1920px"
+                height="888px"
               />
             </div>
             <div class="carousel-item">
               <img
-                loading="lazy"
                 src="./assets/images/slider/Concert_nicholas_green_1920.webp"
                 class="d-block w-100 h-auto"
                 alt="Photographie de jeunes pendant un concert"
-                srcset="
-                  ./assets/images/slider/Concert_nicholas_green_375.webp   375w,
-                  ./assets/images/slider/Concert_nicholas_green_768.webp   768w,
-                  ./assets/images/slider/Concert_nicholas_green_1024.webp 1024w,
-                  ./assets/images/slider/Concert_nicholas_green_1440.webp 1440w,
-                  ./assets/images/slider/Concert_nicholas_green_1920.webp 1920w,
-                  ./assets/images/slider/Concert_nicholas_green_2048.webp 2048w
-                "
-                sizes="(min-width: 2048px) 1920px, 100vw"
-                width="1920"
-                height="888"
+                srcset="./assets/images/slider/Concert_nicholas_green_768.webp"
+                sizes="(min-width: 1920px) 1920px, 100vw"
+                width="1920px"
+                height="888px"
               />
             </div>
             <div class="carousel-item">
               <img
-                loading="lazy"
                 src="./assets/images/slider/Mariage_Edward_Cisneros_1920.webp"
                 class="d-block w-100 h-auto"
-                alt="Photo de mariage d'un couple qui dansent"
-                srcset="
-                  ./assets/images/slider/Mariage_Edward_Cisneros_375.webp   375w,
-                  ./assets/images/slider/Mariage_Edward_Cisneros_768.webp   768w,
-                  ./assets/images/slider/Mariage_Edward_Cisneros_1024.webp 1024w,
-                  ./assets/images/slider/Mariage_Edward_Cisneros_1440.webp 1440w,
-                  ./assets/images/slider/Mariage_Edward_Cisneros_1920.webp 1920w,
-                  ./assets/images/slider/Mariage_Edward_Cisneros_2048.webp 2048w
-                "
-                sizes="(min-width: 2048px) 1920px, 100vw"
-                width="1920"
-                height="888"
+                alt="Photo de mariage d'un couple qui
+              dansent"
+                srcset="./assets/images/slider/Mariage_Edward_Cisneros_768.webp"
+                sizes="(min-width: 1920px) 1920px, 100vw"
+                width="1920px"
+                height="888px"
               />
             </div>
           </div>
@@ -157,7 +135,10 @@
       </div>
       <div id="about">
         <div class="picture left">
-          <img src="./assets/images/nina.webp" alt="Photographie de Nina" />
+          <img
+            src="./assets/images/Nina_Carducci.webp"
+            alt="Photographie de Nina"
+          />
         </div>
         <div id="about-me">
           <h3 class="about-me__title">A propos de moi</h3>
@@ -348,21 +329,19 @@
           </form>
         </div>
         <div class="picture right">
-          <img src="./assets/images/camera.webp" alt="image de la caméra" />
+          <img
+            src="./assets/images/camera.webp"
+            alt="image de la caméra"
+            width="100%"
+            height="auto"
+          />
         </div>
       </div>
     </footer>
 
     <script
-      defer
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
     <script
