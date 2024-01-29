@@ -64,6 +64,8 @@
               ><img
                 src="assets/images/instagram.webp"
                 alt="image de Nina Carducci sur Instagram"
+                width="100%"
+                height="auto"
             /></a>
           </li>
         </ul>
@@ -104,9 +106,10 @@
                 class="d-block w-100 h-auto"
                 alt="Personne qui traverse sur un passage piéton"
                 srcset="
-                  ./assets/images/slider/Portrait_ryoji_iwata_768.webp   768w,
+                  ./assets/images/slider/Portrait_ryoji_iwata_375.webp   375w,
                   ./assets/images/slider/Portrait_ryoji_iwata_1920.webp 1920w
                 "
+                sizes="(max-width: 375px) 100vw, (max-width: 1920px) 100vw,"
               />
             </div>
             <div class="carousel-item">
@@ -160,8 +163,10 @@
       <div id="about">
         <div class="picture left">
           <img
-            src="./assets/images/Nina_Carducci.webp"
+            src="./assets/images/nina-size.webp"
             alt="Photographie de Nina"
+            width="100%"
+            height="auto"
           />
         </div>
         <div id="about-me">
@@ -354,6 +359,7 @@
         </div>
         <div class="picture right">
           <img
+            loading="lazy"
             src="./assets/images/camera.webp"
             alt="image de la caméra"
             width="100%"
