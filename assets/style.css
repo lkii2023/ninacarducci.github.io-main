@@ -209,11 +209,15 @@ form textarea {
   margin: auto;
   background-color: #d8d3a8;
 }
-.picture-right::before {
+.picture.right::before {
   content: " ";
   background-color: #beb45a;
+  width: 374px;
+  height: 329px;
   position: absolute;
+  bottom: 0;
   right: 0;
+  z-index: -1;
 }
 form {
   flex-direction: column;
