@@ -418,11 +418,13 @@
           "closes": "19:00"
         },
         "priceRange": {
-          "@type": "PriceSpecification",
-          "minPrice": "50€",
-          "maxPrice": "400€",
-          "priceCurrency": "EUR"
-        }
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "minPrice": "50€",
+            "maxPrice": "400€"
+       }
       }
     </script>
   </body>
